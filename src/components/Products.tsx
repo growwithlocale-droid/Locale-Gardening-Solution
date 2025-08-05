@@ -7,28 +7,28 @@ const Products = () => {
       icon: <Package className="h-10 w-10 text-[#a3b18a]" />,
       title: "Organic Soil & Inputs",
       description: "Plant-specific soil mixes, vermicompost, neem cake, and bio-enzymes for healthy plant growth.",
-      image: "https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&w=400",
+      image: "https://i.pinimg.com/1200x/cb/8b/51/cb8b51899674c2cae6ccd96eab5fd1a5.jpg",
       features: ["Plant-Specific Soil Mixes", "Vermicompost & Cow Dung Manure", "Neem Cake, Mustard Cake", "Bio-Enzymes & Natural Pest Solutions"]
     },
     {
       icon: <Droplets className="h-10 w-10 text-[#a3b18a]" />,
       title: "Smart Irrigation Kits",
       description: "IoT-enabled sprinkler systems, soil moisture sensors, and rainwater harvest integration.",
-      image: "https://images.pexels.com/photos/4503733/pexels-photo-4503733.jpeg?auto=compress&cs=tinysrgb&w=400",
+      image: "https://i.pinimg.com/1200x/5a/dd/52/5add52c003e75c00775a8a47d107abcf.jpg",
       features: ["IoT & Non-IoT Sprinkler Systems", "Soil Moisture Sensors", "Rainwater Harvest Kits", "Voice-Enabled Timers"]
     },
     {
       icon: <TreePine className="h-10 w-10 text-[#a3b18a]" />,
       title: "Planters & Grow Systems",
       description: "Self-watering pots, vertical garden panels, and hydroponic starter kits for modern gardening.",
-      image: "https://images.pexels.com/photos/5699466/pexels-photo-5699466.jpeg?auto=compress&cs=tinysrgb&w=400",
+      image: "https://i.pinimg.com/736x/8c/50/b6/8c50b667e8781e4f1d76a1f755c0fb2c.jpg",
       features: ["Self-Watering Pots", "Modular Vertical Panels", "Hydroponic & Aquaponic Kits", "Window & Balcony Planters"]
     },
     {
       icon: <Palette className="h-10 w-10 text-[#a3b18a]" />,
       title: "Eco Decor & Green Gifting",
       description: "Preserved moss wall art, bamboo accessories, and herbal gift kits for conscious living.",
-      image: "https://images.pexels.com/photos/6208086/pexels-photo-6208086.jpeg?auto=compress&cs=tinysrgb&w=400",
+      image: "https://i.pinimg.com/736x/e5/0a/19/e50a19164b8a4f8b289761a7ca7b8d39.jpg",
       features: ["Preserved Moss Wall Art", "Bamboo & Clay Accessories", "Upcycled Planters", "Terrariums & Herbal Gift Kits"]
     },
     {
@@ -45,19 +45,19 @@ const Products = () => {
       title: "IoT Garden Hub",
       description: "Smart control center for your entire garden ecosystem",
       price: "₹12,999",
-      image: "https://images.pexels.com/photos/4503267/pexels-photo-4503267.jpeg?auto=compress&cs=tinysrgb&w=400"
+      image: "https://i.pinimg.com/1200x/2a/df/a9/2adfa99c9f975d5c396cfd18f419859b.jpg"
     },
     {
       title: "Vertical Garden Kit",
       description: "Complete modular system for space-saving gardening",
       price: "₹8,499",
-      image: "https://images.pexels.com/photos/5699466/pexels-photo-5699466.jpeg?auto=compress&cs=tinysrgb&w=400"
+      image: "https://i.pinimg.com/1200x/ba/15/96/ba1596b1983f3b1cd4fc933673ebff91.jpg"
     },
     {
       title: "Moss Art Frame",
       description: "Preserved moss wall art for natural indoor décor",
       price: "₹3,999",
-      image: "https://images.pexels.com/photos/6208086/pexels-photo-6208086.jpeg?auto=compress&cs=tinysrgb&w=400"
+      image: "https://i.pinimg.com/1200x/33/13/9d/33139d98ea4bd1054000853cbe5c1ac3.jpg"
     }
   ];
 
