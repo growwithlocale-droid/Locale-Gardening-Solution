@@ -112,8 +112,8 @@ const Contact = () => {
                     <div>
                       <h4 className="font-semibold text-[#344e41] mb-1">Our Location</h4>
                       <p className="text-gray-700">
-                        123 Green Street, Eco District<br />
-                        Bangalore, Karnataka 560001
+                        RAJPUR, 201-KUMAR PARA RD<br />
+                        SOUTH 24 PARGANAS- 700149, West Bengal
                       </p>
                     </div>
                   </div>
@@ -123,7 +123,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h4 className="font-semibold text-[#344e41] mb-1">Phone Number</h4>
-                      <p className="text-gray-700">+91 98765 43210</p>
+                      <p className="text-gray-700">+91 94323 35987</p>
                     </div>
                   </div>
                   <div className="flex items-start space-x-4">
@@ -132,7 +132,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h4 className="font-semibold text-[#344e41] mb-1">Email Address</h4>
-                      <p className="text-gray-700">hello@local-e.com</p>
+                      <p className="text-gray-700">growwithlocale@gmail.com</p>
                     </div>
                   </div>
                 </div>
