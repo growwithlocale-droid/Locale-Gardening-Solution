@@ -18,13 +18,13 @@ const Hero = () => {
           muted
           loop
           playsInline
-          poster="https://images.pexels.com/photos/4503273/pexels-photo-4503273.jpeg?auto=compress&cs=tinysrgb&w=1920"
+          poster="https://i.pinimg.com/736x/5c/b0/d4/5cb0d4a8055a1959352a25f261663cae.jpg"
         >
           {/* Placeholder video - user will upload their own later */}
           <source src="https://videos.pexels.com/video-files/8549518/8549518-uhd_2560_1440_25fps.mp4 />
           {/* Fallback image for browsers that don't support video */}
           <img 
-            src="https://images.pexels.com/photos/4503273/pexels-photo-4503273.jpeg?auto=compress&cs=tinysrgb&w=1920" 
+            src="https://i.pinimg.com/736x/5c/b0/d4/5cb0d4a8055a1959352a25f261663cae.jpg" 
             alt="Gardening background"
             className="w-full h-full object-cover"
           />
