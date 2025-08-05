@@ -3,12 +3,12 @@ import React from 'react';
 const Gallery = () => {
   const projects = [
     {
-      image: "https://images.pexels.com/photos/4503273/pexels-photo-4503273.jpeg?auto=compress&cs=tinysrgb&w=600",
+      image: "https://i.pinimg.com/736x/96/d0/db/96d0db1738c1630d66ad26f0d313451d.jpg",
       title: "Urban Rooftop Garden",
       description: "Complete transformation of a 500 sq ft terrace into a productive vegetable garden"
     },
     {
-      image: "https://images.pexels.com/photos/5699466/pexels-photo-5699466.jpeg?auto=compress&cs=tinysrgb&w=600",
+      image: "https://i.pinimg.com/1200x/3b/41/6e/3b416e5a63606e693860001b10d5e1a1.jpg",
       title: "Vertical Living Wall",
       description: "Space-saving vertical garden solution for apartment balcony"
     },
@@ -18,17 +18,17 @@ const Gallery = () => {
       description: "IoT-enabled hydroponic system for year-round fresh herbs"
     },
     {
-      image: "https://images.pexels.com/photos/6208086/pexels-photo-6208086.jpeg?auto=compress&cs=tinysrgb&w=600",
+      image: "https://i.pinimg.com/736x/f6/cf/6d/f6cf6d5987936b5154f9f286f9c058c7.jpg",
       title: "Moss Art Installation",
       description: "Preserved moss wall art for corporate office reception"
     },
     {
-      image: "https://images.pexels.com/photos/4503733/pexels-photo-4503733.jpeg?auto=compress&cs=tinysrgb&w=600",
+      image: "https://i.pinimg.com/1200x/e4/b8/a5/e4b8a5a101ebb0087c2e94d60820d1c0.jpg",
       title: "Kitchen Garden Makeover",
       description: "Organic kitchen garden with automated irrigation system"
     },
     {
-      image: "https://images.pexels.com/photos/1076758/pexels-photo-1076758.jpeg?auto=compress&cs=tinysrgb&w=600",
+      image: "https://i.pinimg.com/1200x/17/4f/70/174f70aff5eb5848726837c1ceebb569.jpg",
       title: "Indoor Plant Paradise",
       description: "Complete interior landscaping with air-purifying plants"
     }
