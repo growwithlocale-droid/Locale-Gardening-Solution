@@ -21,7 +21,7 @@ const Hero = () => {
           poster="https://images.pexels.com/photos/4503273/pexels-photo-4503273.jpeg?auto=compress&cs=tinysrgb&w=1920"
         >
           {/* Placeholder video - user will upload their own later */}
-          <source src="https://sample-videos.com/zip/10/mp4/SampleVideo_1280x720_1mb.mp4" type="video/mp4" />
+          <source src="https://videos.pexels.com/video-files/8549518/8549518-uhd_2560_1440_25fps.mp4 />
           {/* Fallback image for browsers that don't support video */}
           <img 
             src="https://images.pexels.com/photos/4503273/pexels-photo-4503273.jpeg?auto=compress&cs=tinysrgb&w=1920" 
