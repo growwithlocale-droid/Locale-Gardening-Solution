@@ -16,11 +16,11 @@ const About = () => {
             <h2 className="text-4xl lg:text-5xl font-bold text-[#344e41] mb-6">
               Who We Are
             </h2>
-            <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-              We design, build, and maintain sustainable green spaces using local materials and organic methods.
+            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+              At Local-e, we design, build, and maintain sustainable green spaces using locally sourced materials and 100% organic methods.
             </p>
             <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-              At Local-e, we believe that every space has the potential to become a thriving ecosystem. Our team of passionate gardeners and sustainability experts work together to create customized solutions that bring nature closer to your daily life.
+              We believe every space—no matter how small—can become a thriving ecosystem. Our passionate team of gardeners and sustainability experts craft custom gardening solutions to bring nature closer to your daily life.
             </p>
             <div className="space-y-4">
               <div className="flex items-center space-x-3">

@@ -41,13 +41,18 @@ const Hero = () => {
             isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
           }`}>
             {/* Main Headline */}
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight drop-shadow-lg">
+            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-4 leading-tight drop-shadow-lg">
               Bring Nature Home with Local-e
             </h1>
             
             {/* Subheading */}
-            <p className="text-xl md:text-2xl lg:text-3xl text-white mb-12 max-w-4xl mx-auto leading-relaxed drop-shadow-md font-medium">
-              Custom gardening solutions for Indian homes, offices & rooftops.
+            <p className="text-xl md:text-2xl lg:text-3xl text-white mb-8 max-w-4xl mx-auto leading-relaxed drop-shadow-md font-medium">
+              Custom Gardening Solutions for Homes, Offices, and Rooftops
+            </p>
+            
+            {/* Brand Promise */}
+            <p className="text-lg md:text-xl text-white mb-12 max-w-2xl mx-auto leading-relaxed drop-shadow-md font-semibold">
+              Organic. Local. Smart.
             </p>
             
             {/* CTA Buttons */}
