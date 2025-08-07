@@ -1,62 +1,65 @@
 import React from 'react';
-import { Package, Droplets, TreePine, Palette, Battery, ArrowRight } from 'lucide-react';
+import { Sprout, Package, Droplets, TreePine, Palette, ArrowRight, Leaf } from 'lucide-react';
 
 const Products = () => {
   const productCategories = [
     {
+      icon: <Sprout className="h-10 w-10 text-[#a3b18a]" />,
+      title: "Saplings & Seeds Delivery",
+      description: "Grow your own garden from carefully nurtured saplings and seeds. Available for homes, rooftops, balconies, and offices.",
+      image: "https://images.pexels.com/photos/4503273/pexels-photo-4503273.jpeg?auto=compress&cs=tinysrgb&w=600",
+      features: ["Leafy Trees", "Flowering Plants", "Vegetable & Fruit Plants", "Custom Garden Kits (Tailored to space & needs)"]
+    },
+    {
       icon: <Package className="h-10 w-10 text-[#a3b18a]" />,
-      title: "Organic Soil & Inputs",
-      description: "Plant-specific soil mixes, vermicompost, neem cake, and bio-enzymes for healthy plant growth.",
+      title: "Organic Soil & Natural Inputs",
+      description: "Ensure healthy, chemical-free plant growth with organic nourishment.",
       image: "https://i.pinimg.com/1200x/cb/8b/51/cb8b51899674c2cae6ccd96eab5fd1a5.jpg",
-      features: ["Plant-Specific Soil Mixes", "Vermicompost & Cow Dung Manure", "Neem Cake, Mustard Cake", "Bio-Enzymes & Natural Pest Solutions"]
+      features: ["Plant-Specific Soil Mixes (Veggie, Bloom, Succulent, etc.)", "Vermicompost & Cow Dung Manure", "Neem Cake & Mustard Cake Fertilizer", "Bio-Enzymes & Natural Pest Control Solutions"],
+      highlight: "100% Organic | No Synthetic Chemicals | Pollinator-Safe"
     },
     {
       icon: <Droplets className="h-10 w-10 text-[#a3b18a]" />,
       title: "Smart Irrigation Kits",
-      description: "IoT-enabled sprinkler systems, soil moisture sensors, and rainwater harvest integration.",
+      description: "Efficient water usage meets smart gardening.",
       image: "https://i.pinimg.com/1200x/5a/dd/52/5add52c003e75c00775a8a47d107abcf.jpg",
-      features: ["IoT & Non-IoT Sprinkler Systems", "Soil Moisture Sensors", "Rainwater Harvest Kits", "Voice-Enabled Timers"]
+      features: ["IoT & Non-IoT Sprinkler Systems", "Soil Moisture Sensors", "Rainwater Harvesting Integration Kits"],
+      highlight: "Designed for sustainable water use and remote garden care."
     },
     {
       icon: <TreePine className="h-10 w-10 text-[#a3b18a]" />,
       title: "Planters & Grow Systems",
-      description: "Self-watering pots, vertical garden panels, and hydroponic starter kits for modern gardening.",
-      image: "https://i.pinimg.com/736x/8c/50/b6/8c50b667e8781e4f1d76a1f755c0fb2c.jpg",
-      features: ["Self-Watering Pots", "Modular Vertical Panels", "Hydroponic & Aquaponic Kits", "Window & Balcony Planters"]
+      description: "Modern, modular solutions for space-efficient gardening.",
+      image: "https://images.pexels.com/photos/4503267/pexels-photo-4503267.jpeg?auto=compress&cs=tinysrgb&w=600",
+      features: ["Self-Watering Pots (Reduce water waste)", "Modular Vertical Garden Panels", "Hydroponic & Aquaponic Starter Kits", "Window & Balcony Planters"],
+      highlight: "Perfect for apartments, rooftops, and compact spaces."
     },
     {
       icon: <Palette className="h-10 w-10 text-[#a3b18a]" />,
-      title: "Eco Decor & Green Gifting",
-      description: "Preserved moss wall art, bamboo accessories, and herbal gift kits for conscious living.",
+      title: "Eco Décor & Organic Gift Items",
+      description: "Green living made beautiful and giftable.",
       image: "https://i.pinimg.com/736x/e5/0a/19/e50a19164b8a4f8b289761a7ca7b8d39.jpg",
-      features: ["Preserved Moss Wall Art", "Bamboo & Clay Accessories", "Upcycled Planters", "Terrariums & Herbal Gift Kits"]
-    },
-    {
-      icon: <Battery className="h-10 w-10 text-[#a3b18a]" />,
-      title: "Green Tech Tools",
-      description: "Solar lighting, smart monitoring devices, and voice-controlled systems for modern gardens.",
-      image: "https://images.pexels.com/photos/4503267/pexels-photo-4503267.jpeg?auto=compress&cs=tinysrgb&w=400",
-      features: ["Solar Garden Lighting", "Smart Plant Monitoring", "Voice-Controlled Watering", "Indoor Grow Lights"]
+      features: ["Preserved Moss Wall Art (Low-maintenance, aesthetic decor)", "Organic Goodies: Honey, Soaps, Candles, Jams, Jellies, Sauces", "Herbal Wellness Gift Kits (Curated for festivals, events, and corporate gifting)"]
     }
   ];
 
   const featuredProducts = [
     {
-      title: "IoT Garden Hub",
-      description: "Smart control center for your entire garden ecosystem",
-      price: "₹12,999",
+      title: "Custom Garden Kit",
+      description: "Complete starter kit tailored to your space and needs",
+      price: "₹4,999",
       image: "https://i.pinimg.com/1200x/2a/df/a9/2adfa99c9f975d5c396cfd18f419859b.jpg"
     },
     {
-      title: "Vertical Garden Kit",
-      description: "Complete modular system for space-saving gardening",
-      price: "₹8,499",
+      title: "Smart Irrigation System",
+      description: "IoT-enabled watering system with moisture sensors",
+      price: "₹12,999",
       image: "https://i.pinimg.com/1200x/ba/15/96/ba1596b1983f3b1cd4fc933673ebff91.jpg"
     },
     {
-      title: "Moss Art Frame",
-      description: "Preserved moss wall art for natural indoor décor",
-      price: "₹3,999",
+      title: "Herbal Wellness Gift Kit",
+      description: "Curated organic goodies perfect for gifting",
+      price: "₹2,499",
       image: "https://i.pinimg.com/1200x/33/13/9d/33139d98ea4bd1054000853cbe5c1ac3.jpg"
     }
   ];
@@ -69,7 +72,7 @@ const Products = () => {
             Innovative Garden Products
           </h2>
           <p className="text-xl text-gray-700 max-w-3xl mx-auto">
-            Our product line is designed for conscious gardeners looking for functionality, sustainability, and beauty.
+            Designed for conscious gardeners who value functionality, sustainability, and beauty.
           </p>
         </div>
 
@@ -92,7 +95,7 @@ const Products = () => {
                 <p className="text-gray-700 leading-relaxed mb-4">
                   {category.description}
                 </p>
-                <ul className="space-y-2">
+                <ul className="space-y-2 mb-4">
                   {category.features.map((feature, featureIndex) => (
                     <li key={featureIndex} className="flex items-center space-x-3">
                       <div className="w-2 h-2 bg-[#a3b18a] rounded-full"></div>
@@ -100,6 +103,13 @@ const Products = () => {
                     </li>
                   ))}
                 </ul>
+                {category.highlight && (
+                  <div className="bg-[#dad7cd] bg-opacity-30 rounded-lg p-3 text-center">
+                    <p className="text-sm font-semibold text-[#344e41]">
+                      {category.highlight}
+                    </p>
+                  </div>
+                )}
               </div>
             </div>
           ))}
