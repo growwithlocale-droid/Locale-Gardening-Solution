@@ -7,7 +7,7 @@ const About = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="order-2 lg:order-1">
             <img 
-              src="https://images.pexels.com/photos/4503273/pexels-photo-4503273.jpeg?auto=compress&cs=tinysrgb&w=800" 
+              src="https://i.pinimg.com/736x/9d/49/e1/9d49e138d9a09de6207bb589a6b1baa5.jpg" 
               alt="Sustainable gardening" 
               className="rounded-2xl shadow-lg w-full h-96 object-cover"
             />
