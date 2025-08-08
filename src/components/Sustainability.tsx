@@ -29,10 +29,10 @@ const Sustainability = () => {
     <section id="sustainability" className="py-20 bg-[#dad7cd] bg-opacity-30">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl lg:text-5xl font-bold text-[#344e41] mb-4">
+          <h2 className="font-heading text-4xl lg:text-5xl text-[#344e41] mb-4">
             Sustainable by Design
           </h2>
-          <p className="text-xl text-gray-700 max-w-3xl mx-auto">
+          <p className="font-body text-xl text-gray-700 max-w-3xl mx-auto">
             We use native plants, organic soil, zero-chemical methods, and smart irrigation systems to create gardens that are good for you and the planet.
           </p>
         </div>
@@ -43,10 +43,10 @@ const Sustainability = () => {
               <div className="mb-6 flex justify-center">
                 {principle.icon}
               </div>
-              <h3 className="text-xl font-bold text-[#344e41] mb-4">
+              <h3 className="font-heading text-xl text-[#344e41] mb-4">
                 {principle.title}
               </h3>
-              <p className="text-gray-700 leading-relaxed">
+              <p className="font-body text-gray-700 leading-relaxed">
                 {principle.description}
               </p>
             </div>
@@ -56,7 +56,7 @@ const Sustainability = () => {
         <div className="bg-white rounded-3xl p-8 lg:p-12 shadow-lg">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h3 className="text-3xl font-bold text-[#344e41] mb-6">
+              <h3 className="font-heading text-3xl text-[#344e41] mb-6">
                 Our Environmental Impact
               </h3>
               <div className="space-y-6">
@@ -65,8 +65,8 @@ const Sustainability = () => {
                     <span className="text-white font-bold">0%</span>
                   </div>
                   <div>
-                    <p className="font-semibold text-[#344e41]">Chemical Fertilizers</p>
-                    <p className="text-gray-600">All organic, natural inputs only</p>
+                    <p className="font-body font-medium text-[#344e41]">Chemical Fertilizers</p>
+                    <p className="font-body text-gray-600">All organic, natural inputs only</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
@@ -74,8 +74,8 @@ const Sustainability = () => {
                     <span className="text-white font-bold">80%</span>
                   </div>
                   <div>
-                    <p className="font-semibold text-[#344e41]">Water Savings</p>
-                    <p className="text-gray-600">Through smart irrigation and native plants</p>
+                    <p className="font-body font-medium text-[#344e41]">Water Savings</p>
+                    <p className="font-body text-gray-600">Through smart irrigation and native plants</p>
                   </div>
                 </div>
                 <div className="flex items-center space-x-4">
@@ -83,8 +83,8 @@ const Sustainability = () => {
                     <span className="text-white font-bold">100%</span>
                   </div>
                   <div>
-                    <p className="font-semibold text-[#344e41]">Local Sourcing</p>
-                    <p className="text-gray-600">Supporting local suppliers and communities</p>
+                    <p className="font-body font-medium text-[#344e41]">Local Sourcing</p>
+                    <p className="font-body text-gray-600">Supporting local suppliers and communities</p>
                   </div>
                 </div>
               </div>

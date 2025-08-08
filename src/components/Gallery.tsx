@@ -38,10 +38,10 @@ const Gallery = () => {
     <section id="gallery" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl lg:text-5xl font-bold text-[#344e41] mb-4">
+          <h2 className="font-heading text-4xl lg:text-5xl text-[#344e41] mb-4">
             Our Portfolio
           </h2>
-          <p className="text-xl text-gray-700 max-w-3xl mx-auto">
+          <p className="font-body text-xl text-gray-700 max-w-3xl mx-auto">
             Discover the beautiful transformations we've created for homes, offices, and communities across the city.
           </p>
         </div>
@@ -56,10 +56,10 @@ const Gallery = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div className="absolute bottom-6 left-6 right-6 text-white">
-                  <h3 className="text-xl font-bold mb-2">
+                  <h3 className="font-heading text-xl mb-2">
                     {project.title}
                   </h3>
-                  <p className="text-sm opacity-90">
+                  <p className="font-body text-sm opacity-90">
                     {project.description}
                   </p>
                 </div>
@@ -69,7 +69,7 @@ const Gallery = () => {
         </div>
 
         <div className="text-center mt-12">
-          <button className="bg-[#344e41] text-white px-8 py-4 rounded-lg hover:bg-opacity-90 transition-all transform hover:scale-105 text-lg">
+          <button className="font-body bg-[#344e41] text-white px-8 py-4 rounded-lg hover:bg-opacity-90 transition-all transform hover:scale-105 text-lg">
             View More Projects
           </button>
         </div>

@@ -68,10 +68,10 @@ const Products = () => {
     <section id="products" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl lg:text-5xl font-bold text-[#344e41] mb-4">
+          <h2 className="font-heading text-4xl lg:text-5xl text-[#344e41] mb-4">
             Innovative Garden Products
           </h2>
-          <p className="text-xl text-gray-700 max-w-3xl mx-auto">
+          <p className="font-body text-xl text-gray-700 max-w-3xl mx-auto">
             Designed for conscious gardeners who value functionality, sustainability, and beauty.
           </p>
         </div>
@@ -89,23 +89,23 @@ const Products = () => {
                 <div className="mb-4">
                   {category.icon}
                 </div>
-                <h3 className="text-xl font-bold text-[#344e41] mb-3">
+                <h3 className="font-heading text-xl text-[#344e41] mb-3">
                   {category.title}
                 </h3>
-                <p className="text-gray-700 leading-relaxed mb-4">
+                <p className="font-body text-gray-700 leading-relaxed mb-4">
                   {category.description}
                 </p>
                 <ul className="space-y-2 mb-4">
                   {category.features.map((feature, featureIndex) => (
                     <li key={featureIndex} className="flex items-center space-x-3">
                       <div className="w-2 h-2 bg-[#a3b18a] rounded-full"></div>
-                      <span className="text-gray-600 text-sm">{feature}</span>
+                      <span className="font-body text-gray-600 text-sm">{feature}</span>
                     </li>
                   ))}
                 </ul>
                 {category.highlight && (
                   <div className="bg-[#dad7cd] bg-opacity-30 rounded-lg p-3 text-center">
-                    <p className="text-sm font-semibold text-[#344e41]">
+                    <p className="font-body text-sm font-medium text-[#344e41]">
                       {category.highlight}
                     </p>
                   </div>
@@ -117,7 +117,7 @@ const Products = () => {
 
         {/* Featured Products */}
         <div className="bg-[#dad7cd] bg-opacity-30 rounded-3xl p-8 lg:p-12 mb-12">
-          <h3 className="text-3xl font-bold text-[#344e41] mb-8 text-center">
+          <h3 className="font-heading text-3xl text-[#344e41] mb-8 text-center">
             Featured Products
           </h3>
           <div className="grid md:grid-cols-3 gap-8 mb-8">
@@ -129,17 +129,17 @@ const Products = () => {
                   className="w-full h-48 object-cover"
                 />
                 <div className="p-6">
-                  <h4 className="text-xl font-bold text-[#344e41] mb-2">
+                  <h4 className="font-heading text-xl text-[#344e41] mb-2">
                     {product.title}
                   </h4>
-                  <p className="text-gray-700 mb-4">
+                  <p className="font-body text-gray-700 mb-4">
                     {product.description}
                   </p>
                   <div className="flex justify-between items-center">
-                    <span className="text-2xl font-bold text-[#344e41]">
+                    <span className="font-heading text-2xl text-[#344e41]">
                       {product.price}
                     </span>
-                    <button className="bg-[#a3b18a] text-white px-4 py-2 rounded-lg hover:bg-opacity-90 transition-all">
+                    <button className="font-body bg-[#a3b18a] text-white px-4 py-2 rounded-lg hover:bg-opacity-90 transition-all">
                       Add to Cart
                     </button>
                   </div>
@@ -151,33 +151,33 @@ const Products = () => {
 
         {/* Shop with Purpose Section */}
         <div className="bg-white rounded-3xl p-8 lg:p-12 shadow-lg text-center">
-          <h3 className="text-3xl font-bold text-[#344e41] mb-6">
+          <h3 className="font-heading text-3xl text-[#344e41] mb-6">
             Shop with Purpose
           </h3>
-          <p className="text-xl text-gray-700 mb-8 max-w-3xl mx-auto">
+          <p className="font-body text-xl text-gray-700 mb-8 max-w-3xl mx-auto">
             We're not just selling garden tools — we're helping you grow a greener life. All products are:
           </p>
           <div className="flex flex-wrap justify-center gap-8 mb-8">
             <div className="flex items-center space-x-2">
               <div className="w-3 h-3 bg-[#a3b18a] rounded-full"></div>
-              <span className="text-lg font-semibold text-[#344e41]">Organic</span>
+              <span className="font-body text-lg font-medium text-[#344e41]">Organic</span>
             </div>
             <div className="flex items-center space-x-2">
               <div className="w-3 h-3 bg-[#a3b18a] rounded-full"></div>
-              <span className="text-lg font-semibold text-[#344e41]">Sustainably Sourced</span>
+              <span className="font-body text-lg font-medium text-[#344e41]">Sustainably Sourced</span>
             </div>
             <div className="flex items-center space-x-2">
               <div className="w-3 h-3 bg-[#a3b18a] rounded-full"></div>
-              <span className="text-lg font-semibold text-[#344e41]">Made for Indian Climates</span>
+              <span className="font-body text-lg font-medium text-[#344e41]">Made for Indian Climates</span>
             </div>
           </div>
           <div className="bg-[#dad7cd] bg-opacity-30 rounded-2xl p-6 mb-8">
-            <p className="text-lg text-[#344e41]">
+            <p className="font-body text-lg text-[#344e41]">
               🌐 Available at our Online Store & Local-e Experience Center<br />
               📦 Custom kits & seasonal subscriptions available
             </p>
           </div>
-          <button className="bg-[#344e41] text-white px-8 py-4 rounded-lg hover:bg-opacity-90 transition-all transform hover:scale-105 flex items-center space-x-2 mx-auto text-lg">
+          <button className="font-body bg-[#344e41] text-white px-8 py-4 rounded-lg hover:bg-opacity-90 transition-all transform hover:scale-105 flex items-center space-x-2 mx-auto text-lg">
             <span>Browse All Products</span>
             <ArrowRight className="h-5 w-5" />
           </button>

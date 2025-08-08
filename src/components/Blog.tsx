@@ -33,10 +33,10 @@ const Blog = () => {
     <section id="blog" className="py-20 bg-[#dad7cd] bg-opacity-30">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl lg:text-5xl font-bold text-[#344e41] mb-4">
+          <h2 className="font-heading text-4xl lg:text-5xl text-[#344e41] mb-4">
             Latest from Our Garden
           </h2>
-          <p className="text-xl text-gray-700 max-w-3xl mx-auto">
+          <p className="font-body text-xl text-gray-700 max-w-3xl mx-auto">
             Stay updated with the latest gardening tips, sustainability practices, and innovation in urban agriculture.
           </p>
         </div>
@@ -51,29 +51,29 @@ const Blog = () => {
               />
               <div className="p-6">
                 <div className="flex items-center space-x-4 text-sm text-gray-500 mb-3">
-                  <span className="bg-[#a3b18a] text-white px-3 py-1 rounded-full text-xs font-medium">
+                  <span className="font-body bg-[#a3b18a] text-white px-3 py-1 rounded-full text-xs font-medium">
                     {post.category}
                   </span>
                 </div>
-                <h3 className="text-xl font-bold text-[#344e41] mb-3 leading-tight">
+                <h3 className="font-heading text-xl text-[#344e41] mb-3 leading-tight">
                   {post.title}
                 </h3>
-                <p className="text-gray-700 mb-4 leading-relaxed">
+                <p className="font-body text-gray-700 mb-4 leading-relaxed">
                   {post.excerpt}
                 </p>
                 <div className="flex items-center justify-between text-sm text-gray-500">
                   <div className="flex items-center space-x-4">
                     <div className="flex items-center space-x-1">
                       <User className="h-4 w-4" />
-                      <span>{post.author}</span>
+                      <span className="font-body">{post.author}</span>
                     </div>
                     <div className="flex items-center space-x-1">
                       <Calendar className="h-4 w-4" />
-                      <span>{post.date}</span>
+                      <span className="font-body">{post.date}</span>
                     </div>
                   </div>
                 </div>
-                <button className="mt-4 text-[#344e41] font-medium hover:text-[#a3b18a] transition-colors flex items-center space-x-1">
+                <button className="font-body mt-4 text-[#344e41] font-medium hover:text-[#a3b18a] transition-colors flex items-center space-x-1">
                   <span>Read More</span>
                   <ArrowRight className="h-4 w-4" />
                 </button>
@@ -83,7 +83,7 @@ const Blog = () => {
         </div>
 
         <div className="text-center">
-          <button className="bg-[#344e41] text-white px-8 py-4 rounded-lg hover:bg-opacity-90 transition-all transform hover:scale-105 text-lg">
+          <button className="font-body bg-[#344e41] text-white px-8 py-4 rounded-lg hover:bg-opacity-90 transition-all transform hover:scale-105 text-lg">
             Visit Our Blog
           </button>
         </div>
