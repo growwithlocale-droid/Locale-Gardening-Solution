@@ -174,75 +174,75 @@ const Services = () => {
           <div className="text-center mb-12">
             <div className="flex items-center justify-center mb-4">
               <TestTube className="h-12 w-12 text-[#a3b18a] mr-4" />
-              <h3 className="text-3xl font-bold text-[#344e41]">
+              <h3 className="font-heading text-3xl text-[#344e41]">
                 Soil Culture – Our Foundation
               </h3>
             </div>
-            <p className="text-xl text-gray-700 max-w-3xl mx-auto">
+            <p className="font-body text-xl text-gray-700 max-w-3xl mx-auto">
               At Local-e, healthy soil is the heart of a thriving garden. We offer plant-specific, organic soil solutions—no chemical fertilizers, ever.
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
             <div className="space-y-4">
-              <h4 className="text-xl font-bold text-[#344e41]">Custom Soil Mixes</h4>
+              <h4 className="font-heading text-xl text-[#344e41]">Custom Soil Mixes</h4>
               <ul className="space-y-2">
                 <li className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-[#a3b18a] rounded-full"></div>
-                  <span className="text-gray-700">Veggie Boost Mix</span>
+                  <span className="font-body text-gray-700">Veggie Boost Mix</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-[#a3b18a] rounded-full"></div>
-                  <span className="text-gray-700">Bloom Booster Mix</span>
+                  <span className="font-body text-gray-700">Bloom Booster Mix</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-[#a3b18a] rounded-full"></div>
-                  <span className="text-gray-700">Succulent & Cactus Mix</span>
+                  <span className="font-body text-gray-700">Succulent & Cactus Mix</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-[#a3b18a] rounded-full"></div>
-                  <span className="text-gray-700">Herbal Root Mix</span>
+                  <span className="font-body text-gray-700">Herbal Root Mix</span>
                 </li>
               </ul>
             </div>
             <div className="space-y-4">
-              <h4 className="text-xl font-bold text-[#344e41]">Specialized Blends</h4>
+              <h4 className="font-heading text-xl text-[#344e41]">Specialized Blends</h4>
               <ul className="space-y-2">
                 <li className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-[#a3b18a] rounded-full"></div>
-                  <span className="text-gray-700">Orchid Bark Blend</span>
+                  <span className="font-body text-gray-700">Orchid Bark Blend</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-[#a3b18a] rounded-full"></div>
-                  <span className="text-gray-700">Microgreen Medium</span>
+                  <span className="font-body text-gray-700">Microgreen Medium</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-[#a3b18a] rounded-full"></div>
-                  <span className="text-gray-700">Hydroponic Substrate</span>
+                  <span className="font-body text-gray-700">Hydroponic Substrate</span>
                 </li>
               </ul>
             </div>
             <div className="space-y-4">
-              <h4 className="text-xl font-bold text-[#344e41]">Soil Treatments & Testing</h4>
+              <h4 className="font-heading text-xl text-[#344e41]">Soil Treatments & Testing</h4>
               <ul className="space-y-2">
                 <li className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-[#a3b18a] rounded-full"></div>
-                  <span className="text-gray-700">Soil Diagnostics</span>
+                  <span className="font-body text-gray-700">Soil Diagnostics</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-[#a3b18a] rounded-full"></div>
-                  <span className="text-gray-700">Bioactivation & Enrichment</span>
+                  <span className="font-body text-gray-700">Bioactivation & Enrichment</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <div className="w-2 h-2 bg-[#a3b18a] rounded-full"></div>
-                  <span className="text-gray-700">Soil Revitalization</span>
+                  <span className="font-body text-gray-700">Soil Revitalization</span>
                 </li>
               </ul>
             </div>
           </div>
 
           <div className="bg-[#dad7cd] bg-opacity-30 rounded-2xl p-6 text-center">
-            <p className="text-lg font-semibold text-[#344e41]">
+            <p className="font-body text-lg font-medium text-[#344e41]">
               ❌ No Chemical Fertilizers | ✅ 100% Organic | 🐾 Safe for Children, Pets & Pollinators
             </p>
           </div>
@@ -253,11 +253,11 @@ const Services = () => {
           <div className="text-center mb-8">
             <div className="flex items-center justify-center mb-4">
               <Droplets className="h-12 w-12 text-[#a3b18a] mr-4" />
-              <h3 className="text-3xl font-bold text-[#344e41]">
+              <h3 className="font-heading text-3xl text-[#344e41]">
                 Extended Garden Support & Add-Ons
               </h3>
             </div>
-            <p className="text-xl text-gray-700 max-w-3xl mx-auto">
+            <p className="font-body text-xl text-gray-700 max-w-3xl mx-auto">
               Enhance and maintain your garden sustainably.
             </p>
           </div>
@@ -266,40 +266,40 @@ const Services = () => {
             <div className="space-y-2">
               <div className="flex items-center space-x-3">
                 <div className="w-2 h-2 bg-[#a3b18a] rounded-full"></div>
-                <span className="text-gray-700">Rainwater Harvesting Systems</span>
+                <span className="font-body text-gray-700">Rainwater Harvesting Systems</span>
               </div>
             </div>
             <div className="space-y-2">
               <div className="flex items-center space-x-3">
                 <div className="w-2 h-2 bg-[#a3b18a] rounded-full"></div>
-                <span className="text-gray-700">Waste-to-Compost Units</span>
+                <span className="font-body text-gray-700">Waste-to-Compost Units</span>
               </div>
             </div>
           </div>
 
           <div className="bg-[#dad7cd] bg-opacity-30 rounded-2xl p-6">
-            <h4 className="text-xl font-bold text-[#344e41] mb-4 text-center">
+            <h4 className="font-heading text-xl text-[#344e41] mb-4 text-center">
               Maintenance Subscription Plans
             </h4>
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
               <div className="bg-white rounded-lg p-4">
-                <span className="text-lg font-semibold text-[#344e41]">Daily</span>
+                <span className="font-body text-lg font-medium text-[#344e41]">Daily</span>
               </div>
               <div className="bg-white rounded-lg p-4">
-                <span className="text-lg font-semibold text-[#344e41]">Weekly</span>
+                <span className="font-body text-lg font-medium text-[#344e41]">Weekly</span>
               </div>
               <div className="bg-white rounded-lg p-4">
-                <span className="text-lg font-semibold text-[#344e41]">Monthly</span>
+                <span className="font-body text-lg font-medium text-[#344e41]">Monthly</span>
               </div>
               <div className="bg-white rounded-lg p-4">
-                <span className="text-lg font-semibold text-[#344e41]">Quarterly</span>
+                <span className="font-body text-lg font-medium text-[#344e41]">Quarterly</span>
               </div>
             </div>
           </div>
         </div>
 
         <div className="text-center">
-          <button className="bg-[#344e41] text-white px-8 py-4 rounded-lg hover:bg-opacity-90 transition-all transform hover:scale-105 flex items-center space-x-2 mx-auto text-lg">
+          <button className="font-body bg-[#344e41] text-white px-8 py-4 rounded-lg hover:bg-opacity-90 transition-all transform hover:scale-105 flex items-center space-x-2 mx-auto text-lg">
             <span>View All Services</span>
             <ArrowRight className="h-5 w-5" />
           </button>
