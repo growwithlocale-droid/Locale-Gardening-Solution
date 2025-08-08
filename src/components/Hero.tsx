@@ -41,27 +41,27 @@ const Hero = () => {
             isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'
           }`}>
             {/* Main Headline */}
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-4 leading-tight drop-shadow-lg">
+            <h1 className="font-heading text-4xl md:text-6xl lg:text-7xl text-white mb-4 leading-tight drop-shadow-lg">
               Bring Nature Home with Local-e
             </h1>
             
             {/* Subheading */}
-            <p className="text-xl md:text-2xl lg:text-3xl text-white mb-8 max-w-4xl mx-auto leading-relaxed drop-shadow-md font-medium">
+            <p className="font-body text-xl md:text-2xl lg:text-3xl text-white mb-8 max-w-4xl mx-auto leading-relaxed drop-shadow-md">
               Custom Gardening Solutions for Homes, Offices, and Rooftops
             </p>
             
             {/* Brand Promise */}
-            <p className="text-lg md:text-xl text-white mb-12 max-w-2xl mx-auto leading-relaxed drop-shadow-md font-semibold">
+            <p className="font-body text-lg md:text-xl text-white mb-12 max-w-2xl mx-auto leading-relaxed drop-shadow-md font-medium">
               Organic. Local. Smart.
             </p>
             
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center mb-16">
-              <button className="bg-[#344e41] text-white px-8 py-4 rounded-lg hover:bg-opacity-90 transition-all duration-300 transform hover:scale-105 flex items-center space-x-3 text-lg font-semibold shadow-lg hover:shadow-xl">
+              <button className="font-body bg-[#344e41] text-white px-8 py-4 rounded-lg hover:bg-opacity-90 transition-all duration-300 transform hover:scale-105 flex items-center space-x-3 text-lg font-medium shadow-lg hover:shadow-xl">
                 <span>Explore Services</span>
                 <ArrowRight className="h-5 w-5" />
               </button>
-              <button className="border-2 border-white text-white px-8 py-4 rounded-lg hover:bg-white hover:text-[#344e41] transition-all duration-300 transform hover:scale-105 text-lg font-semibold backdrop-blur-sm">
+              <button className="font-body border-2 border-white text-white px-8 py-4 rounded-lg hover:bg-white hover:text-[#344e41] transition-all duration-300 transform hover:scale-105 text-lg font-medium backdrop-blur-sm">
                 Shop Eco Products
               </button>
             </div>

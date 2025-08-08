@@ -15,23 +15,23 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center space-x-2">
             <Leaf className="h-8 w-8 text-[#344e41]" />
-            <span className="text-2xl font-bold text-[#344e41]">Local-e</span>
+            <span className="font-heading text-2xl text-[#344e41]">Local-e</span>
           </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center space-x-8">
-            <a href="#home" className="text-gray-700 hover:text-[#344e41] transition-colors">Home</a>
-            <a href="#about" className="text-gray-700 hover:text-[#344e41] transition-colors">About</a>
-            <a href="#services" className="text-gray-700 hover:text-[#344e41] transition-colors">Services</a>
-            <a href="#products" className="text-gray-700 hover:text-[#344e41] transition-colors">Products</a>
-            <a href="#sustainability" className="text-gray-700 hover:text-[#344e41] transition-colors">Sustainability</a>
-            <a href="#gallery" className="text-gray-700 hover:text-[#344e41] transition-colors">Gallery</a>
-            <a href="#blog" className="text-gray-700 hover:text-[#344e41] transition-colors">Blog</a>
-            <a href="#contact" className="text-gray-700 hover:text-[#344e41] transition-colors">Contact</a>
+            <a href="#home" className="font-body text-gray-700 hover:text-[#344e41] transition-colors">Home</a>
+            <a href="#about" className="font-body text-gray-700 hover:text-[#344e41] transition-colors">About</a>
+            <a href="#services" className="font-body text-gray-700 hover:text-[#344e41] transition-colors">Services</a>
+            <a href="#products" className="font-body text-gray-700 hover:text-[#344e41] transition-colors">Products</a>
+            <a href="#sustainability" className="font-body text-gray-700 hover:text-[#344e41] transition-colors">Sustainability</a>
+            <a href="#gallery" className="font-body text-gray-700 hover:text-[#344e41] transition-colors">Gallery</a>
+            <a href="#blog" className="font-body text-gray-700 hover:text-[#344e41] transition-colors">Blog</a>
+            <a href="#contact" className="font-body text-gray-700 hover:text-[#344e41] transition-colors">Contact</a>
           </nav>
 
           {/* CTA Button */}
-          <button className="hidden lg:block bg-[#344e41] text-white px-6 py-2 rounded-lg hover:bg-opacity-90 transition-all transform hover:scale-105">
+          <button className="font-body hidden lg:block bg-[#344e41] text-white px-6 py-2 rounded-lg hover:bg-opacity-90 transition-all transform hover:scale-105">
             Book a Site Visit
           </button>
 
@@ -48,15 +48,15 @@ const Header = () => {
         {isMenuOpen && (
           <div className="lg:hidden pb-4">
             <nav className="flex flex-col space-y-4">
-              <a href="#home" className="text-gray-700 hover:text-[#344e41] transition-colors">Home</a>
-              <a href="#about" className="text-gray-700 hover:text-[#344e41] transition-colors">About</a>
-              <a href="#services" className="text-gray-700 hover:text-[#344e41] transition-colors">Services</a>
-              <a href="#products" className="text-gray-700 hover:text-[#344e41] transition-colors">Products</a>
-              <a href="#sustainability" className="text-gray-700 hover:text-[#344e41] transition-colors">Sustainability</a>
-              <a href="#gallery" className="text-gray-700 hover:text-[#344e41] transition-colors">Gallery</a>
-              <a href="#blog" className="text-gray-700 hover:text-[#344e41] transition-colors">Blog</a>
-              <a href="#contact" className="text-gray-700 hover:text-[#344e41] transition-colors">Contact</a>
-              <button className="bg-[#344e41] text-white px-6 py-2 rounded-lg hover:bg-opacity-90 transition-all self-start">
+              <a href="#home" className="font-body text-gray-700 hover:text-[#344e41] transition-colors">Home</a>
+              <a href="#about" className="font-body text-gray-700 hover:text-[#344e41] transition-colors">About</a>
+              <a href="#services" className="font-body text-gray-700 hover:text-[#344e41] transition-colors">Services</a>
+              <a href="#products" className="font-body text-gray-700 hover:text-[#344e41] transition-colors">Products</a>
+              <a href="#sustainability" className="font-body text-gray-700 hover:text-[#344e41] transition-colors">Sustainability</a>
+              <a href="#gallery" className="font-body text-gray-700 hover:text-[#344e41] transition-colors">Gallery</a>
+              <a href="#blog" className="font-body text-gray-700 hover:text-[#344e41] transition-colors">Blog</a>
+              <a href="#contact" className="font-body text-gray-700 hover:text-[#344e41] transition-colors">Contact</a>
+              <button className="font-body bg-[#344e41] text-white px-6 py-2 rounded-lg hover:bg-opacity-90 transition-all self-start">
                 Book a Site Visit
               </button>
             </nav>

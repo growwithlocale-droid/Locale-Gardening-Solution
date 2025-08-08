@@ -61,10 +61,10 @@ const Services = () => {
     <section id="services" className="py-20 bg-[#dad7cd] bg-opacity-30">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl lg:text-5xl font-bold text-[#344e41] mb-4">
+          <h2 className="font-heading text-4xl lg:text-5xl text-[#344e41] mb-4">
             Our Services
           </h2>
-          <p className="text-xl text-gray-700 max-w-3xl mx-auto">
+          <p className="font-body text-xl text-gray-700 max-w-3xl mx-auto">
             From soil to sensors, we handle it all with customized, modern, and sustainable gardening solutions.
           </p>
         </div>
@@ -75,21 +75,21 @@ const Services = () => {
               <div className="mb-6">
                 {service.icon}
               </div>
-              <h3 className="text-2xl font-bold text-[#344e41] mb-4">
+              <h3 className="font-heading text-2xl text-[#344e41] mb-4">
                 {service.title}
               </h3>
-              <p className="text-gray-700 mb-6 leading-relaxed">
+              <p className="font-body text-gray-700 mb-6">
                 {service.description}
               </p>
               
               {service.coreOfferings && (
                 <div className="mb-4">
-                  <h4 className="text-lg font-semibold text-[#344e41] mb-3">Core Offerings:</h4>
+                  <h4 className="font-body text-lg font-medium text-[#344e41] mb-3">Core Offerings:</h4>
                   <ul className="space-y-2">
                     {service.coreOfferings.map((offering, offeringIndex) => (
                       <li key={offeringIndex} className="flex items-center space-x-3">
                         <div className="w-2 h-2 bg-[#a3b18a] rounded-full"></div>
-                        <span className="text-gray-600">{offering}</span>
+                        <span className="font-body text-gray-600">{offering}</span>
                       </li>
                     ))}
                   </ul>
@@ -98,12 +98,12 @@ const Services = () => {
 
               {service.upcomingSpecializations && (
                 <div className="mb-4">
-                  <h4 className="text-lg font-semibold text-[#344e41] mb-3">Upcoming Specializations:</h4>
+                  <h4 className="font-body text-lg font-medium text-[#344e41] mb-3">Upcoming Specializations:</h4>
                   <ul className="space-y-2">
                     {service.upcomingSpecializations.map((spec, specIndex) => (
                       <li key={specIndex} className="flex items-center space-x-3">
                         <div className="w-2 h-2 bg-[#a3b18a] rounded-full opacity-60"></div>
-                        <span className="text-gray-600 italic">{spec}</span>
+                        <span className="font-body text-gray-600 italic">{spec}</span>
                       </li>
                     ))}
                   </ul>
@@ -112,12 +112,12 @@ const Services = () => {
 
               {service.currentSolutions && (
                 <div className="mb-4">
-                  <h4 className="text-lg font-semibold text-[#344e41] mb-3">Current Solutions:</h4>
+                  <h4 className="font-body text-lg font-medium text-[#344e41] mb-3">Current Solutions:</h4>
                   <ul className="space-y-2">
                     {service.currentSolutions.map((solution, solutionIndex) => (
                       <li key={solutionIndex} className="flex items-center space-x-3">
                         <div className="w-2 h-2 bg-[#a3b18a] rounded-full"></div>
-                        <span className="text-gray-600">{solution}</span>
+                        <span className="font-body text-gray-600">{solution}</span>
                       </li>
                     ))}
                   </ul>
@@ -126,12 +126,12 @@ const Services = () => {
 
               {service.comingSoon && (
                 <div className="mb-4">
-                  <h4 className="text-lg font-semibold text-[#344e41] mb-3">Coming Soon:</h4>
+                  <h4 className="font-body text-lg font-medium text-[#344e41] mb-3">Coming Soon:</h4>
                   <ul className="space-y-2">
                     {service.comingSoon.map((item, itemIndex) => (
                       <li key={itemIndex} className="flex items-center space-x-3">
                         <div className="w-2 h-2 bg-[#a3b18a] rounded-full opacity-60"></div>
-                        <span className="text-gray-600 italic">{item}</span>
+                        <span className="font-body text-gray-600 italic">{item}</span>
                       </li>
                     ))}
                   </ul>

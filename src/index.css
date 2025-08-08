@@ -2,6 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&display=swap');
+
+/* Custom font faces for Helvetica World */
+@font-face {
+  font-family: 'Helvetica World';
+  src: local('Helvetica Neue Light'), local('Helvetica Light'), local('Arial');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Helvetica World';
+  src: local('Helvetica Neue Light Italic'), local('Helvetica Light Italic'), local('Arial Italic');
+  font-weight: 300;
+  font-style: italic;
+}
+
 @keyframes float {
   0%, 100% {
     transform: translateY(0px);
@@ -39,4 +56,19 @@
 
 .animate-float-slow {
   animation: float-slow 10s ease-in-out infinite 4s;
+}
+
+/* Typography Classes */
+.font-heading {
+  font-family: 'Helvetica World', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  letter-spacing: -0.02em;
+}
+
+.font-body {
+  font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  font-weight: 300;
+  line-height: 1.6;
+  letter-spacing: 0.01em;
 }

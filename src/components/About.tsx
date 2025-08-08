@@ -13,27 +13,27 @@ const About = () => {
             />
           </div>
           <div className="order-1 lg:order-2">
-            <h2 className="text-4xl lg:text-5xl font-bold text-[#344e41] mb-6">
+            <h2 className="font-heading text-4xl lg:text-5xl text-[#344e41] mb-6">
               Who We Are
             </h2>
-            <p className="text-lg text-gray-700 mb-4 leading-relaxed">
+            <p className="font-body text-lg text-gray-700 mb-4">
               At Local-e, we design, build, and maintain sustainable green spaces using locally sourced materials and 100% organic methods.
             </p>
-            <p className="text-lg text-gray-700 mb-8 leading-relaxed">
+            <p className="font-body text-lg text-gray-700 mb-8">
               We believe every space—no matter how small—can become a thriving ecosystem. Our passionate team of gardeners and sustainability experts craft custom gardening solutions to bring nature closer to your daily life.
             </p>
             <div className="space-y-4">
               <div className="flex items-center space-x-3">
                 <div className="w-2 h-2 bg-[#a3b18a] rounded-full"></div>
-                <span className="text-gray-700">100% Organic & Chemical-Free</span>
+                <span className="font-body text-gray-700">100% Organic & Chemical-Free</span>
               </div>
               <div className="flex items-center space-x-3">
                 <div className="w-2 h-2 bg-[#a3b18a] rounded-full"></div>
-                <span className="text-gray-700">Locally Sourced Materials</span>
+                <span className="font-body text-gray-700">Locally Sourced Materials</span>
               </div>
               <div className="flex items-center space-x-3">
                 <div className="w-2 h-2 bg-[#a3b18a] rounded-full"></div>
-                <span className="text-gray-700">Smart Technology Integration</span>
+                <span className="font-body text-gray-700">Smart Technology Integration</span>
               </div>
             </div>
           </div>
