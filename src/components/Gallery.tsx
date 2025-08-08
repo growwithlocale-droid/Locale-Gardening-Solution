@@ -3,12 +3,12 @@ import React from 'react';
 const Gallery = () => {
   const projects = [
     {
-      image: "https://i.pinimg.com/736x/96/d0/db/96d0db1738c1630d66ad26f0d313451d.jpg",
+      image: "https://i.pinimg.com/736x/e1/2c/7f/e12c7f65f915c7ce39e8f0029f5351c9.jpg",
       title: "Urban Rooftop Garden",
       description: "Complete transformation of a 500 sq ft terrace into a productive vegetable garden"
     },
     {
-      image: "https://i.pinimg.com/1200x/3b/41/6e/3b416e5a63606e693860001b10d5e1a1.jpg",
+      image: "https://i.pinimg.com/736x/aa/0c/d7/aa0cd7fd32437af2f793d2d7067a4d82.jpg",
       title: "Vertical Living Wall",
       description: "Space-saving vertical garden solution for apartment balcony"
     },
