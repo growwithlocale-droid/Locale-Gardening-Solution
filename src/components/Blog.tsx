@@ -6,7 +6,7 @@ const Blog = () => {
     {
       title: "5 Native Plants Perfect for Indian Balcony Gardens",
       excerpt: "Discover low-maintenance, climate-adapted plants that thrive in small spaces and support local biodiversity.",
-      image: "https://images.pexels.com/photos/4503273/pexels-photo-4503273.jpeg?auto=compress&cs=tinysrgb&w=400",
+      image: "https://i.pinimg.com/1200x/4a/cc/b8/4accb84e938d7ecc500e0de4861f4853.jpg",
       author: "Priya Sharma",
       date: "March 15, 2024",
       category: "Plant Care"
@@ -14,7 +14,7 @@ const Blog = () => {
     {
       title: "DIY Compost: Turn Kitchen Waste into Garden Gold",
       excerpt: "Learn how to create nutrient-rich compost at home using kitchen scraps and organic waste.",
-      image: "https://images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&cs=tinysrgb&w=400",
+      image: "https://i.pinimg.com/1200x/87/00/18/870018254f9fcbc6ba5940761ab27824.jpg",
       author: "Rajesh Kumar",
       date: "March 10, 2024",
       category: "Sustainability"
@@ -22,7 +22,7 @@ const Blog = () => {
     {
       title: "Smart Irrigation: Technology Meets Traditional Gardening",
       excerpt: "Explore how IoT and automation can make your garden more efficient while preserving water.",
-      image: "https://images.pexels.com/photos/4503733/pexels-photo-4503733.jpeg?auto=compress&cs=tinysrgb&w=400",
+      image: "https://i.pinimg.com/736x/e9/b9/da/e9b9dad3adb8fe19c061ac3ecbb72f25.jpg",
       author: "Anita Desai",
       date: "March 5, 2024",
       category: "Technology"
